@@ -70,6 +70,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="5dp"
+                android:onClick="plus"
                 android:background="@drawable/rounded_operand"
                 android:text="+" />
 
@@ -78,6 +79,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="5dp"
+                android:onClick="minus"
                 android:background="@drawable/rounded_operand"
                 android:text="-" />
 
@@ -86,6 +88,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="5dp"
+                android:onClick="mul"
                 android:background="@drawable/rounded_operand"
                 android:text="*" />
 
@@ -93,7 +96,7 @@
                 android:id="@+id/divide"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-
+                android:onClick="div"
                 android:background="@drawable/rounded_operand"
                 android:text="/" />
         </LinearLayout>
@@ -130,7 +133,7 @@
             android:layout_height="3dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:background="?android:attr/listDivider" />
+            android:background="@color/black" />
 
         <LinearLayout
             android:layout_width="145dp"
