@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2596be">
+
+    <com.imankur.analogclockview.AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="206dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="292dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="My Clock" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="This activity demonstrates the use of Frame Layout with multiple views on top of each other" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="103dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/image_rounded_tran"
+        android:text="            " />
+
+</FrameLayout>
