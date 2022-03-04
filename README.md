@@ -1,5 +1,6 @@
 # Android-Application-Development-Course
-lab-based course that will introduce mobile software developing arena, as part of the course we will design and develop our own application to practice and demonstrate the course topics.
+### Lab-based course that will introduce mobile software developing arena, as part of the course i designed and developed my own applications to practice and demonstrate the course topics.
 
--Lab1 - Android Studio Layouts
--Lab2 - Simple Calculator
+
+ - Lab1 - Android Studio Layouts
+ - Lab2 - Simple Calculator
