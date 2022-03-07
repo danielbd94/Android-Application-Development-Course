@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public void onSaveInstanceState(Bundle outState){
-        outState.putInt("savedResult",Integer.valueOf(result.getText().toString()));
+        outState.putFloat("savedResult",Float.valueOf(result.getText().toString()));
         super.onSaveInstanceState(outState);
     }
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void onRestoreInstanceState(Bundle savedInstanceState)
     {
         super.onRestoreInstanceState(savedInstanceState);
-        result.setText(String.valueOf(savedInstanceState.getInt("savedResult")));
+        result.setText(String.valueOf(savedInstanceState.getFloat("savedResult")));
     }
 
     public void plus(View view) {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(TextUtils.isEmpty(ed1.getText().toString())||TextUtils.isEmpty(ed2.getText().toString())||(TextUtils.isEmpty(ed1.getText().toString())&&TextUtils.isEmpty(ed2.getText().toString())))
             Toast.makeText(context,text,duration).show();
-       else result.setText(String.valueOf(Integer.valueOf(ed1.getText().toString())+Integer.valueOf(ed2.getText().toString())));
+       else result.setText(String.valueOf(Float.valueOf(ed1.getText().toString())+Float.valueOf(ed2.getText().toString())));
     }
 
     public void minus(View view) {
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(TextUtils.isEmpty(ed1.getText().toString())||TextUtils.isEmpty(ed2.getText().toString())||(TextUtils.isEmpty(ed1.getText().toString())&&TextUtils.isEmpty(ed2.getText().toString())))
             Toast.makeText(context,text,duration).show();
-        else result.setText(String.valueOf(Integer.valueOf(ed1.getText().toString())-Integer.valueOf(ed2.getText().toString())));
+        else result.setText(String.valueOf(Float.valueOf(ed1.getText().toString())-Float.valueOf(ed2.getText().toString())));
     }
 
     public void mul(View view) {
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(TextUtils.isEmpty(ed1.getText().toString())||TextUtils.isEmpty(ed2.getText().toString())||(TextUtils.isEmpty(ed1.getText().toString())&&TextUtils.isEmpty(ed2.getText().toString())))
             Toast.makeText(context,text,duration).show();
-        else result.setText(String.valueOf(Integer.valueOf(ed1.getText().toString())*Integer.valueOf(ed2.getText().toString())));
+        else result.setText(String.valueOf(Float.valueOf(ed1.getText().toString())*Float.valueOf(ed2.getText().toString())));
     }
 
     public void div(View view) {
@@ -77,6 +77,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(context,text1,duration).show();
         else if(ed2.getText().toString().equals("0"))
             Toast.makeText(context,text2,duration).show();
-        else result.setText(String.valueOf(Integer.valueOf(ed1.getText().toString())/Integer.valueOf(ed2.getText().toString())));
+        else result.setText(String.valueOf(Float.valueOf(ed1.getText().toString())/Float.valueOf(ed2.getText().toString())));
     }
 }
