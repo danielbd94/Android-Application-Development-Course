@@ -4,3 +4,4 @@
 
  - Lab1 - Android Studio Layouts
  - Lab2 - Simple Calculator
+ - Lab3 - Multiple Activities & Communication using “Intents”
