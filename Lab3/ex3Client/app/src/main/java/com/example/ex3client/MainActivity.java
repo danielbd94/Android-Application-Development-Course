@@ -30,17 +30,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void call(View view) { //when clicking the call option
-        Intent intent=new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+ed1.getText().toString())); //Explicit Intent with the action needed to be applied
+        Intent intent=new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+ed1.getText().toString())); //Implicit Intent with the action needed to be applied
         startActivity(intent); //no result expected so just start the activity requested
     }
 
     public void surf(View view) { //when clicking the surf option
-        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://"+ed2.getText().toString())); //Explicit Intent with the action needed to be applied
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://"+ed2.getText().toString())); //Implicit Intent with the action needed to be applied
         startActivity(intent); //no result expected so just start the activity requested
     }
 
     public void email(View view) { //when clicking the email option
-        Intent intent=new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"+ed3.getText().toString())); //Explicit Intent with the action needed to be applied
+        Intent intent=new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"+ed3.getText().toString())); //Implicit Intent with the action needed to be applied
         startActivity(intent);  //no result expected so just start the activity requested
     }
 
