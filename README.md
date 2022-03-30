@@ -2,6 +2,7 @@
 ### Lab-based course that will introduce mobile software developing arena, as part of the course i designed and developed my own applications to practice and demonstrate the course topics.
 
 
- - Lab1 - Android Studio Layouts
- - Lab2 - Simple Calculator
+ - Lab1 - Introduction, Overview,and UI designs
+ - Lab2 - Activity life cycle
  - Lab3 - Multiple Activities & Communication using “Intents”
+ - Lab4 - UI events listeners & Re-used/Dynamic layouts
