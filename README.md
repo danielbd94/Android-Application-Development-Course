@@ -5,4 +5,10 @@
  - Lab1 - Introduction, Overview,and UI designs
  - Lab2 - Activity life cycle
  - Lab3 - Multiple Activities & Communication using “Intents”
- - Lab4 - UI events listeners & Re-used/Dynamic layouts
+ - Lab4 - UI events listeners & Re-used/Dynamic layout
+ - Lab5 - Android Fragments
+ - Lab6 - Menus & Dialogs
+ - Lab7 - RecyclerView & Adapter
+ - Lab8 - MVVM & LiveData
+ - Lab9 - Persisting app data
+ - Lab10 - Broadcast Receiver & Permissions
