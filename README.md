@@ -1,5 +1,5 @@
 # Android-Application-Development-Course
-### Lab-based course that will introduce mobile software developing arena, as part of the course i designed and developed my own applications to practice and demonstrate the course topics.
+## Lab-based course that will introduce mobile software developing arena, as part of the course i designed and developed my own applications to practice and demonstrate the course topics.
 
 
  - Lab1 - Introduction, Overview,and UI designs
@@ -13,4 +13,4 @@
  - Lab9 - Persisting app data
  - Lab10 - Broadcast Receiver & Permissions
 
-## Final Project - "TextMe" - Chat appliction built in android studio using Java
+### Final Project - "TextMe" - Chat appliction built in android studio using Java
