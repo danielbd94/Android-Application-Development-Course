@@ -12,3 +12,5 @@
  - Lab8 - MVVM & LiveData
  - Lab9 - Persisting app data
  - Lab10 - Broadcast Receiver & Permissions
+
+## Final Project - "TextMe" - Chat appliction built in android studio using Java
