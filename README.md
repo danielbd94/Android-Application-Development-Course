@@ -14,5 +14,4 @@
  - Lab10 - Broadcast Receiver & Permissions
 
 ### Final Project - "TextMe" - Chat appliction built in android studio using Java
-![Screenshot_20220731_130010](https://user-images.githubusercontent.com/80395162/182021109-d3f6f661-8a8d-448f-bfe5-c2256eb85820.png)
-![Screenshot_20220731_125936](https://user-images.githubusercontent.com/80395162/182021113-93101d2d-6b50-48a4-b916-329e6bfb3428.png)
+![Screenshot](https://user-images.githubusercontent.com/80395162/182021316-9ae64634-a782-4d54-9686-124b06dc58a8.png)
